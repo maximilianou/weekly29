@@ -63,8 +63,7 @@ function main() {
 
 - input.txt ( how you pass data to your program :| )
 
-( 15 # this line will be the only one data read. there have to be a \n at the end of file
- )
+( 15 # this line will be the only one data read. the \n will finish the input )
 ```
 15 
 3
