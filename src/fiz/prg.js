@@ -1,17 +1,3 @@
-# weekly29
-Exercise
-
-- Start with Hackerrank, local machine. 
-*( Time? a Clock? Development? well well well.. 80', unless it is not in paper :/ )*
-
-Makefile
-```
-test:
-	cat text.txt | node prg.js
-```
-
-prg.js ( this is not a joke, this is how hackerrank evaluate your coding style )
-```js
 'use strict';
 
 process.stdin.resume();
@@ -59,38 +45,4 @@ function main() {
 
     fizzBuzz(n);
 }
-```
-
-- input.txt ( how you pass data to your program :| )
-( 15 # this line will be the only one data read. there have to be a \n at the end of file
- )
-```
-15 
-3
-4
-5
-6
-77777
-
-```
-- The Output result ok.
-```
-src$ make
-cat text.txt | node prg.js
-1
-2
-Fizz
-4
-Buzz
-Fizz
-7
-8
-Fizz
-Buzz
-11
-Fizz
-13
-14
-FizzBuzz
-```
 
