@@ -48,7 +48,7 @@ function minTime(files, numCores, limit) {
     const paral = files.slice(0,limit);
     const noparal = files.slice(limit);
     return paral.map( 
-        (lines) => Math.floor(lines/numCores) !== lines/numCores ? lines 
+        (lines) => lines % numCores !== 0 ? lines 
         : lines/numCores 
         ).reduce( (acc, curr)=> acc+curr , 0) + 
         noparal.reduce( (acc, curr) => acc+curr , 0) ;
