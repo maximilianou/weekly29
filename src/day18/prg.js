@@ -34,9 +34,6 @@ function readLine() {
  *  3. INTEGER limit
  */
 function minTime(files, numCores, limit) {
-//    console.debug(`  files:    ${files}`);
-//    console.debug(`  numCores: ${numCores}`);
-//    console.debug(`  limit:    ${limit}`);
 // INPUT: first line : number of files n
 //        n lines:     list of number that are the count of lines in each file
 //        before last line: number of cores, the number of line to execute in parallel have to be multiple of nro of cores
